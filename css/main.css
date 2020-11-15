@@ -1,11 +1,14 @@
 html {
     font-family: 'Pangolin', cursive;
 }
+body {
+    margin: 0;
+}
 .main-bar {
     background: black;
     padding: 30px 60px;
     border: 3px dashed blue;
-    margin: 20px 30px;
+    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,4 +32,32 @@ html {
     transition: all .5s ease-in-out;
     background: white;
     color: black;
+}
+
+.main-content {
+    background: #ccc;
+    padding: 20px;
+    display: flex;
+}
+
+.navigation-bar {
+    background: #0f0;
+    padding: 20px;
+    width: 300px;
+    margin-right: 40px;
+}
+
+.content {
+    background: #009;
+    padding: 20px;
+    color: #fff;
+}
+
+.navigation-link {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.navigation-link:last-child {
+    margin-bottom: 0px;
 }
