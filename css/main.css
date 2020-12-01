@@ -18,7 +18,7 @@ body {
     display: flex;
 }
 
-.main-bar__nav-item {
+.main-nav__nav-item {
     text-decoration: none;
     color: white;
     padding: 5px 8px;
@@ -28,10 +28,14 @@ body {
     border-radius: 4px;
 }
 
-.main-bar__nav-item:hover {
+.main-nav__nav-item:hover {
     transition: all .5s ease-in-out;
     background: white;
     color: black;
+}
+
+.main-nav__nav-item._ico {
+    background: #222288;
 }
 
 .main-content {
