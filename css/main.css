@@ -1,11 +1,14 @@
 html {
     font-family: 'Pangolin', cursive;
 }
+body {
+    margin: 0;
+}
 .main-bar {
     background: black;
     padding: 30px 60px;
     border: 3px dashed blue;
-    margin: 20px 30px;
+    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,7 +18,7 @@ html {
     display: flex;
 }
 
-.main-bar__nav-item {
+.main-nav__nav-item {
     text-decoration: none;
     color: white;
     padding: 5px 8px;
@@ -25,8 +28,52 @@ html {
     border-radius: 4px;
 }
 
-.main-bar__nav-item:hover {
+.main-nav__nav-item:hover {
     transition: all .5s ease-in-out;
     background: white;
     color: black;
+}
+
+.main-nav__nav-item._ico {
+    background: #222288;
+}
+
+.main-content {
+    background: #ccc;
+    padding: 20px;
+    display: flex;
+}
+
+.navigation-bar {
+    background: #0f0;
+    padding: 20px;
+    width: 300px;
+    margin-right: 40px;
+}
+
+.content {
+    background: #009;
+    padding: 20px;
+    color: #fff;
+}
+
+.navigation-link {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.navigation-link:last-child {
+    margin-bottom: 0px;
+}
+
+.content-item__img {
+    display: block;
+    width: calc(50% - 40px);
+    margin: 0 20px;
+}
+
+.content-item__element._img {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
 }
