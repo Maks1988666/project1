@@ -65,3 +65,15 @@ body {
 .navigation-link:last-child {
     margin-bottom: 0px;
 }
+
+.content-item__img {
+    display: block;
+    width: calc(50% - 40px);
+    margin: 0 20px;
+}
+
+.content-item__element._img {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
