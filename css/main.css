@@ -77,3 +77,15 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.ordered-list {
+    list-style-type: lower-alpha;
+}
+
+.ordered-list li {
+    margin-top: 50px;
+}
+
+ div ~ span {
+    color: red;
+}
