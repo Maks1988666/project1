@@ -89,3 +89,24 @@ body {
  div ~ span {
     color: red;
 }
+
+table {
+    width: 600px;
+    margin: 60px 0px;
+    border-collapse: collapse;
+}
+
+thead td {
+    background: gray;
+}
+
+td {
+    border: 1px solid black;
+    padding: 20px 10px;
+    background: white;
+    color: black;
+    }
+
+tfoot td {
+    background: #ff3377;
+}
